@@ -106,11 +106,19 @@ p {
 }
 
 /* home section */
+
 #home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  /* background: url('../images/IMG_2251.jpg') no-repeat; */
+  /* background: url('../images/IMG_2251.jpg'); */
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.55) 5%,
+  rgba(255,255,255,0.88) 100%), url('../images/IMG_2251.jpg');
+  /* background-size: 300px; */
+  /* background-size: cover; */
+  background-position: left 20% bottom 90%;
+
   -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: right; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -121,6 +129,7 @@ p {
           align-items: center;
   height: 100vh;
   text-align: center;
+  color:black;
 }
 
 #home hr {
